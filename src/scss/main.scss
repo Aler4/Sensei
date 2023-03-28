@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Monrape";
+  src: url("../assets/fonts/Manrope-Medium.ttf") format('truetype');
+}
+
+body {
+  font-family: "Monrape",sans-serif;
+  background-color: #F7F6FF;
+  color: #333333;
+}
+
+.btn__big {
+width: 205px;
+height: 54px;
+opacity: 0.9;box-shadow: -4px 6px 19px -7px black;
+  transition: all ease-in .3s;
+  &:hover {
+    opacity: 1;
+    background-image: linear-gradient(115.11deg, #cd3667 10.12%, #a51f7b 100.01%);
+    box-shadow: -4px 6px 19px -7px #ce10d1;
+
+  }
+}
+.btn__medium {
+  width: 195px;
+  height: 54px;
+  opacity: 0.9;box-shadow: -4px 6px 19px -7px black;
+  transition: all ease-in .3s;
+  align-self: center;
+  &:hover {
+    opacity: 1;
+    background-image: linear-gradient(115.11deg, #a51f7b 10.12%, #cd3667 100.01%);
+    box-shadow: -4px 6px 19px -7px #ce10d1;
+
+  }
+}
+
+@media (max-width: 760px) {
+  .logo {
+    width: 80%;
+    height: auto;
+  }
+}
+@import "general";
+@import "goals";
+@import "services";
+@import "form";
+@import "works";
+@import "footer";

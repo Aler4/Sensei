@@ -1,0 +1,50 @@
+section.works-section {
+    .carousel-inner {
+      .carousel-item {
+          .works_card {
+            background-color: #fff;
+            box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.08);
+            border-radius: 15px;
+
+            .card_header {
+              padding-left: 28px;
+              padding-top: 25px;
+              height: 227px;
+            }
+            .results {
+              position: relative;
+              background-color: #F3F1FE;
+              padding-left: 28px;
+              padding-top: 21px;
+              padding-right: 34px;
+              padding-bottom: 25px;
+              .result_topic {
+                font-size: 1.12rem;
+                font-weight: 800;
+                text-transform: uppercase;
+              }
+              .result_list {
+                h3 {
+                  font-size: 1.12rem;
+                  font-weight: 800;
+                }
+              }
+            }
+            .works_card-systems {
+              padding-left: 28px;
+              padding-bottom: 25px;
+              padding-top: 24px;
+
+              .systems_topic {
+                font-size: 1.12rem;
+                font-weight: 800;
+                text-transform: uppercase;
+              }
+              .systems_logos {
+
+              }
+            }
+          }
+      }
+    }
+}
